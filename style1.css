@@ -1,0 +1,83 @@
+.class{
+    background-color: #ffe5e5;
+    color: #ffe5e5;
+}
+ 
+
+
+p.lead{
+   font-size: 25px;
+   font-weight: 400;
+   color:#ff99ff;
+}
+p.lead1{
+    font-size: 25px;
+    font-weight: 400;
+    color:#ffd67c;
+ }
+nav.navbar.navbar-expand-lg{
+    background-color:black;
+   
+  }
+
+.featurette-heading{
+    color:rgb(32, 175, 175);
+    font-family: cursive;
+    animation-name: chandan;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-shadow: 0px 3px 3px#ffe5e5;
+    
+}
+@keyframes chandan {
+  from {
+    color: rgba(255, 0, 0, 0.849);
+  }
+  to {
+    color: rgba(137, 43, 226, 0.822);
+  }
+}
+/* .container.my-4{
+    background-color:black
+} */
+
+.d-flex{
+    color: aquamarine;
+}
+span.text{
+    color:beige
+}
+div.container-fluid h1{
+    background-color:darkgrey;
+    color:black;
+    font-size:50px;
+    text-align: center;
+}
+a.navbar-brand {
+    font-size: 40px;
+    font-weight: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-shadow: 0px 5px 5px#80e1ff;
+    color: aliceblue;
+  }
+  a.nav-link {
+    font-size: 25px;
+    font-weight: 40px;
+    color: rgba(127, 255, 212, 0.87);
+    text-shadow: 0px 5px 5px #80e1ff;
+  }
+  a.nav-link.active {
+    text-shadow: 0px 5px 5px red;
+  }
+  .btn.btn-2 {
+    background-color: rgba(255, 205, 253, 0.863);
+    font-size: 20px;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .btn.btn-1 {
+    background-color: rgba(102, 149, 110, 0.904);
+    font-size: 20px;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
